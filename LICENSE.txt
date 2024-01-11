@@ -1,0 +1,13 @@
+No License
+
+Author: sedwinj
+
+Source: https://github.com/sedwinj/wishlister
+
+Copyright © 2024 sedwinj
+
+For all intents and purposes, this software has no license. Any downloading, reproduction, modification, sharing, or
+usage of this software is at your own risk.
+
+The author of this software is in no way liable for any damages of any form caused by the use of this software in any
+way.
