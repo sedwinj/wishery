@@ -1,5 +1,15 @@
 # Wishlister
 
+## Execution Instructions
+
+**Front-end:**
+
+```bash
+cd frontend
+npm install # (Optional after the first run.)
+npm start
+```
+
 ## End Goal
 
 *This is an overview of what the finished product will look like. Not every feature listed in this section is necessarily implemented presently.*
