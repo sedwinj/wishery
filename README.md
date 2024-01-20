@@ -1,12 +1,37 @@
 # Wishlister
 
+## Dependencies
+
+- npm 10.3.0
+- Java SE 21
+
+## Setup
+
+### Back-end
+
+Initialize database:
+
+```bash
+cd database
+sqlite3 dev.db < CreateDB.sql
+sqlite3 dev.db < PopulateDev.sql
+```
+
+### Front-end
+
+Install npm:
+
+```bash
+cd frontend
+npm install
+```
+
 ## Execution Instructions
 
 **Front-end:**
 
 ```bash
 cd frontend
-npm install # (Optional after the first run.)
 npm start
 ```
 
