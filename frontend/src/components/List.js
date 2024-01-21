@@ -8,7 +8,6 @@ import TableRow from '@mui/material/TableRow'
 
 function List() {
   let data = [
-    [true, 'Beef'],
     [false, 'Beef'],
     [false, 'Sauce'],
     [false, 'Lettuce'],
@@ -25,8 +24,8 @@ function List() {
         <Table>
           <TableHead>
             <TableRow>
-              <TableCell style={{ fontWeight: 'bold' }}>Status</TableCell>
-              <TableCell style={{ fontWeight: 'bold' }}>Item</TableCell>
+              <TableCell>Status</TableCell>
+              <TableCell>Item</TableCell>
             </TableRow>
           </TableHead>
           <TableBody>
