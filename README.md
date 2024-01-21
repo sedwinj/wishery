@@ -14,8 +14,7 @@ Initialize database:
 
 ```bash
 cd database
-sqlite3 dev.db < CreateDB.sql
-sqlite3 dev.db < PopulateDev.sql
+./create
 ```
 
 ### Front-end
