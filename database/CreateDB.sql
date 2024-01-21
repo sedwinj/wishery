@@ -1,13 +1,15 @@
 CREATE TABLE IF NOT EXISTS List (
-    id INT PRIMARY KEY,
+    id INT,
     name VARCHAR(50) NOT NULL,
-    anonymousCreator BOOLEAN NOT NULL DEFAULT TRUE,
     description TINYTEXT,
-    usingUserItemAssignment BOOLEAN NOT NULL DEFAULT FALSE,
-    usingVotes BOOLEAN NOT NULL DEFAULT FALSE,
-    votesPerUser INT NOT NULL DEFAULT 0,
-    maxVotesPerItem INT NOT NULL DEFAULT 1,
-    usingDeadlines BOOLEAN NOT NULL DEFAULT FALSE,
-    usingPriority BOOLEAN NOT NULL DEFAULT FALSE,
-    priorityCanTie BOOLEAN NOT NULL DEFAULT TRUE
+    PRIMARY KEY(id)
+);
+
+CREATE TABLE IF NOT EXISTS Item (
+    id INT,
+    listId INT,
+    name VARCHAR(50) NOT NULL UNIQUE,
+    completed BOOLEAN NOT NULL DEFAULT FALSE,
+    PRIMARY KEY (id, listId),
+    FOREIGN KEY (listId) REFERENCES List(id)
 );
