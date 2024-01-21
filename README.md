@@ -4,6 +4,7 @@
 
 - npm 10.3.0
 - Java SE 21
+- SQLite 3.41.2
 
 ## Setup
 
@@ -28,7 +29,7 @@ npm install
 
 ## Execution Instructions
 
-**Front-end:**
+### Front-end
 
 ```bash
 cd frontend
