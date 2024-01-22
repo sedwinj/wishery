@@ -4,7 +4,7 @@
 
 - npm 10.3.0
 - Java SE 21
-- SQLite 3.41.2
+- PostgreSQL 14.10
 
 ## Setup
 

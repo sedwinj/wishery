@@ -1,4 +1,7 @@
-rm -f dev.db;
-cat CreateDB.sql PopulateDev.sql > setup.sql;
-sqlite3 dev.db < setup.sql;
-rm setup.sql;
+if ! psql -d wishlister_dev -c '\q'; then
+    psql -c "CREATE DATABASE wishlister_dev";
+fi
+
+echo psql
+psql -d wishlister_dev -f CreateTables.sql
+psql -d wishlister_dev -f PopulateDev.sql
