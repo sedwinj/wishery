@@ -14,7 +14,7 @@ Initialize database:
 
 ```bash
 cd database
-./create
+./create.sh
 ```
 
 ### Front-end
