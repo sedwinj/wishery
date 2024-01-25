@@ -12,15 +12,6 @@ code {
     monospace;
 }
 
-div.list-container {
-  min-width: 500px;
-  max-width: 60%;
-  margin: 20px auto;
-  background-color: white;
-  padding: 8px 20px;
-  border-radius: 16px;
-}
-
 body {
   background-color: lightgray;
 }
