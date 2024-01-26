@@ -10,7 +10,7 @@
 
 ### Back-end
 
-Initialize database:
+Initialize database and users:
 
 ```bash
 cd database
@@ -33,6 +33,15 @@ npm install
 ```bash
 cd frontend
 npm start
+```
+
+## Teardown
+
+Destroy database and users:
+
+```bash
+cd database
+./teardown.sh
 ```
 
 ## End Goal
