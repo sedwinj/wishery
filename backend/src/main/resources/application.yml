@@ -1,0 +1,8 @@
+spring:
+  jpa:
+    hibernate.ddl-auto: none
+    properties.hibernate.dialect: org.hibernate.dialect.PostgreSQLDialect
+  datasource:
+    url: jdbc:postgresql://localhost:5432/wishlister_dev
+    username: wishlister_dev
+    password: aHTCesWf8HTwo2fe9N2I09qQmdLEBHFOv9YYaWYLbSKy0ridej
