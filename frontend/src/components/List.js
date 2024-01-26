@@ -21,6 +21,8 @@ function List() {
 
   return (
     <div className="list-container">
+      <h1>Ingredients</h1>
+      <p>These are the ingredients that I need to buy for my burger.</p>
       <TableContainer>
         <Table>
           <TableHead>
